@@ -1,4 +1,5 @@
 import React from 'react';
+import AboutUs from '../../Components/HomeComponents/AboutUs/AboutUs';
 import DiscoverSec from '../../Components/HomeComponents/DiscoverSec/DiscoverSec';
 import Banner from '../../Components/HomeComponents/HomeBanner/Banner';
 
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <Banner />
             <DiscoverSec />
+            <AboutUs />
         </div>
     );
 };

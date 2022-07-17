@@ -16,7 +16,7 @@ const Banner = () => {
                     <div className='w-10/12'>
                         <h3 className='font-dancing-script text-[36px] text-[#D7B686]'>Welcome to Lezzatos</h3>
                         <h1 className='text-[50px] leading-tight font-semibold py-3'>The Authentic<br />Restaurant & Cafe</h1>
-                        <p className='text-lg font-light inline-block'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus doloribus mollitia unde. Obcaecati tempore in at molestias voluptas dicta laboriosam!</p>
+                        <p className='text-lg font-light inline-block'>View the Menu of Lezzet Authentic Restaurant & Cafe in Swansea, UK. Share it with friends or find your next meal.</p>
                         <button className='border-2 border-[#D7B686] px-8 py-2 mt-5 text-xl hover:bg-[#d7b686] hover:text-gray-800 transition-all ease-linear'>View More</button>
                     </div>
                     <div className='relative w-6/12'>
