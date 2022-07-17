@@ -8,13 +8,12 @@ const PublicHeader = () => {
             <div className='max-w-[1920px] mx-auto'>
                 <div className='px-[100px] flex justify-between items-center'>
                     <h1 className='font-dancing-script font-bold text-5xl text-[#D7B686] py-8'>Lezzatos</h1>
-                    <div className='space-x-6'>
+                    <div className='space-x-8'>
                         <Link to='/'>Home</Link>
-                        <Link to='/menu'>Menu</Link>
-                        <Link to='/recipe'>Recipe</Link>
-                        <Link to='/about'>About</Link>
-                        <Link to='/contact'>Contact</Link>
-                        <Link to='/blogs'>Blogs</Link>
+                        <Link to='/our-menu'>Our Menu</Link>
+                        <Link to='/reservation'>Reservation</Link>
+                        <Link to='/news'>News</Link>
+                        <Link to='/more'>More</Link>
                     </div>
                     <div className='space-x-6'>
                         <button><Link to='/login'>Login</Link></button>
