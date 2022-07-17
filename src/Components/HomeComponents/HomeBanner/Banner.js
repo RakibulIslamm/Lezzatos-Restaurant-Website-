@@ -2,17 +2,19 @@ import React from 'react';
 import bannerBg from '../../../images/home-images/italian-food-background-with-ingredients-GE9A25J-BG-Section.jpg'
 import indianLunch from '../../../images/home-images/indian-lunch-dinner-CLDWFXZ.jpg'
 import italianFood from '../../../images/home-images/traditional-italian-cookies-with-coconut-GX2FEKM-2-902x1024.jpg'
-// import './Banner.css'
+import pattern1 from '../../../images/pattern-1.png'
+import pattern2 from '../../../images/pattern-2.png'
+import pattern3 from '../../../images/Pattern-3.png'
 
 const Banner = () => {
     return (
-        <div className='min-h-screen w-full bg-slate-300 bg-cover bg-center py-28 flex items-center justify-center' style={{
+        <div className='min-h-screen w-full bg-slate-300 bg-cover bg-center py-28 flex items-center justify-center relative z-0 overflow-hidden' style={{
             backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, .2), rgba(0, 0, 0, .6), rgba(0, 0, 0, 0)),url(${bannerBg})`
         }}>
             <div className='flex justify-between items-center py-28 max-w-[1920px] mx-auto'>
                 <div className='px-[100px] flex items-center justify-between gap-20 text-white w-full'>
                     <div className='w-10/12'>
-                        <h3 className='font-dancing-script text-[36px]'>Welcome to Lezzatos</h3>
+                        <h3 className='font-dancing-script text-[36px] text-[#D7B686]'>Welcome to Lezzatos</h3>
                         <h1 className='text-[50px] leading-tight font-semibold py-3'>The Authentic<br />Restaurant & Cafe</h1>
                         <p className='text-lg font-light inline-block'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus doloribus mollitia unde. Obcaecati tempore in at molestias voluptas dicta laboriosam!</p>
                         <button className='border-2 border-[#D7B686] px-8 py-2 mt-5 text-xl hover:bg-[#d7b686] hover:text-gray-800 transition-all ease-linear'>View More</button>
@@ -36,9 +38,12 @@ const Banner = () => {
                                 }} src={italianFood} alt="" />
                             </div>
                         </div>
+                        <img className='-bottom-36 right-16 absolute' src={pattern3} alt="" />
+                        <img className=' absolute -right-40 top-10' src={pattern1} alt="" />
                     </div>
                 </div>
             </div>
+            <img className=' absolute bottom-0 left-0' src={pattern2} alt="" />
         </div>
     );
 };
