@@ -20,7 +20,7 @@ const Banner = () => {
                         <button className='border-2 border-[#D7B686] px-8 py-2 mt-5 text-xl hover:bg-[#d7b686] hover:text-gray-800 transition-all ease-linear'>View More</button>
                     </div>
                     <div className='relative w-6/12'>
-                        <div className=' ml-auto block relative w-[336px] h-[396px] bg-white box-border' style={{
+                        <div className=' ml-auto block relative w-[336px] h-[396px] bg-[#D7B686] box-border' style={{
                             clipPath: 'polygon(25% 0%, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 25%)'
                         }}>
                             <img className='absolute top-[3px] left-[3px] w-[330px] h-[390px] object-cover' style={{
@@ -30,7 +30,7 @@ const Banner = () => {
 
 
                         <div className='absolute -bottom-28 right-48 inline-block'>
-                            <div className='inline-block relative w-[206px] h-[256px] bg-white box-border' style={{
+                            <div className='inline-block relative w-[206px] h-[256px] bg-[#D7B686] box-border' style={{
                                 clipPath: 'polygon(0 1%, 80% 1%, 100% 20%, 100% 100%, 0 100%, 0 30%)'
                             }}>
                                 <img className='absolute top-[3px] left-[3px] w-[200px] h-[250px] object-cover' style={{

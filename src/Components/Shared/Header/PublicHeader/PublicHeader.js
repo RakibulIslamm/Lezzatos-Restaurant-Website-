@@ -17,8 +17,8 @@ const PublicHeader = () => {
                         <Link to='/blogs'>Blogs</Link>
                     </div>
                     <div className='space-x-6'>
-                        <Link to='/login'>Login</Link>
-                        <Link to='/register'>Register</Link>
+                        <button><Link to='/login'>Login</Link></button>
+                        <button className='px-4 py-1 border border-[#D7B686] hover:bg-[#d7b686] hover:text-gray-800 transition-all ease-linear'><Link to='/register'>Register</Link></button>
                     </div>
                 </div>
             </div>
