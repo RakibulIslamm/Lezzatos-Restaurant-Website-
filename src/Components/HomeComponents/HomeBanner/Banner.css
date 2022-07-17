@@ -1,0 +1,19 @@
+.cut-out {
+    display: inline-block;
+    position: relative;
+    width: 336px;
+    height: 396px;
+    background: white;
+    box-sizing: border-box;
+    clip-path: polygon(25% 0%, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 25%);
+  }
+
+  .cut-out img {
+    position: absolute;
+    top: 3px; /* equal to border thickness */
+    left: 3px; /* equal to border thickness */
+    width: 330px; /* container height - (border thickness * 2) */
+    height: 390px; /* container height - (border thickness * 2) */
+    clip-path: polygon(25% 0%, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 25%);
+    object-fit: cover;
+  }
