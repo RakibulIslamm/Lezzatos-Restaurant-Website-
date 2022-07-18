@@ -6,7 +6,7 @@ const Statistic = () => {
         <div className='py-20 bg-[#0B0E11] bg-cover bg-center' style={{
             backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),url(${bg})`
         }}>
-            <div className='px-[100px] grid grid-cols-4 gap-5 text-white'>
+            <div className='px-[100px] flex items-center justify-between gap-5 text-white'>
                 <div className='text-center space-y-4'>
                     <h2 className='text-5xl font-semibold'>12</h2>
                     <p className='text-xl tracking-widest'>Restaurants</p>
