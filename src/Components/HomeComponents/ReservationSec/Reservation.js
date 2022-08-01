@@ -1,4 +1,5 @@
 import React from 'react';
+import pattern2 from '../../../images/pattern-2.png'
 
 const Reservation = () => {
     return (
@@ -10,7 +11,7 @@ const Reservation = () => {
                         <h1 className='text-3xl font-semibold pb-3'>Fell Happiness by Making <br /> a Reservation</h1>
                         <p className=' font-light'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architectoerror sit voluptatem accusantium doloremque laudantium  ab illo inventore veritatis et quasi</p>
                     </div>
-                    <div className='w-full bg-[#E1BE8B] p-12' style={{
+                    <div className='w-full bg-[#E1BE8B] p-12 relative' style={{
                         clipPath: 'polygon(0% 0%, 88.3% 0%, 99.8% 14%, 100% 69%, 100% 100%, 0% 100%, 0% 70%, 0% 30%)'
                     }}>
                         <h2 className='text-white text-center text-2xl font-semibold pb-5'>Book Table</h2>
@@ -31,6 +32,8 @@ const Reservation = () => {
                             </div>
                             <button className='uppercase text-[#E1BE8B] px-5 py-2 block mx-auto bg-white w-6/12'>Book Now</button>
                         </form>
+                        <img className='absolute top-0 left-0 transform rotate-90 w-[80px] mix-blend-color-dodge' src={pattern2} alt="" />
+                        <img className='absolute bottom-0 right-0 transform -rotate-90 w-[80px] mix-blend-color-dodge' src={pattern2} alt="" />
                     </div>
                 </div>
             </div>
