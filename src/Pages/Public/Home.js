@@ -6,6 +6,7 @@ import MenuDishes from '../../Components/HomeComponents/MenuDishes/MenuDishes';
 import Reservation from '../../Components/HomeComponents/ReservationSec/Reservation';
 import Statistic from '../../Components/HomeComponents/Statistic/Statistic';
 import Testimonials from '../../Components/HomeComponents/Testimonials/Testimonials';
+import Video from '../../Components/HomeComponents/Video/Video';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <MenuDishes />
             <Reservation />
             <Testimonials />
+            <Video />
         </div>
     );
 };

@@ -10,7 +10,7 @@ const SingleMenu = () => {
             <div className='px-5 py-5 bg-white w-11/12 overflow-hidden h-[270px] absolute -bottom-52 hover:bottom-0 left-0 flex flex-col justify-between transition-all ease-in-out duration-300' style={{
                 clipPath: 'polygon(0 0, 90% 0, 100% 10%, 100% 100%, 0 100%, 0% 50%)'
             }}>
-                <div className='flex items-center gap-2 pb-5'>
+                <div className='flex items-center gap-2 pb-2'>
                     <span className='w-8 h-1 inline-block bg-[#E3C08D] rounded'></span>
                     <div>
                         <h2 className='text-xl font-semibold'>Appertizer Package</h2>
