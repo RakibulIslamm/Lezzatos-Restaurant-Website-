@@ -4,8 +4,8 @@ import pattern2 from '../../../images/pattern-2.png'
 const Reservation = () => {
     return (
         <div className='py-20 bg-gray-600'>
-            <div className='px-[100px] max-w-[1920px] mx-auto'>
-                <div className='flex justify-between items-center gap-20'>
+            <div className='px-[100px] xs:px-5 sm:px-10 max-w-[1920px] mx-auto'>
+                <div className='flex justify-between items-center gap-20 xs:gap-8 xs:flex-col'>
                     <div className='w-full text-white'>
                         <h2 className='text-[#E3C08D] text-3xl font-semibold font-dancing-script py-3'>Reservation</h2>
                         <h1 className='text-3xl font-semibold pb-3'>Fell Happiness by Making <br /> a Reservation</h1>

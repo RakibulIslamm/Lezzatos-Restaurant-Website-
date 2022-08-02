@@ -36,13 +36,13 @@ const DiscoverSec = () => {
 
 
     return (
-        <div className='w-full bg-[#0B0E11] text-[#D7B686] py-20 px-[100px] relative'>
-            <div className='max-w-[1920px] mx-auto'>
+        <div className='w-full bg-[#0B0E11] text-[#D7B686] py-20 relative'>
+            <div className='px-[100px] xs:px-5 sm:px-10 max-w-[1920px] mx-auto'>
                 <div className='text-center'>
                     <h3 className='font-dancing-script text-2xl text-[#E3C08D]'>Discover</h3>
                     <h1 className='text-3xl text-white font-semibold mt-2'>Our Specialist Cuisine</h1>
                 </div>
-                <div className=' grid grid-cols-2 gap-5 mt-12'>
+                <div className=' grid grid-cols-2 xs:grid-cols-1 gap-5 mt-12'>
                     {
                         discoverData.map(discover => <DiscoverCard key={discover.name} discover={discover} />)
                     }

@@ -11,15 +11,15 @@ const Banner = () => {
         <div className='min-h-screen w-full bg-slate-300 bg-cover bg-center py-28 flex items-center justify-center relative z-0 overflow-hidden' style={{
             backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, .2), rgba(0, 0, 0, .6), rgba(0, 0, 0, 0)),url(${bannerBg})`
         }}>
-            <div className='flex justify-between items-center py-28 max-w-[1920px] mx-auto'>
-                <div className='px-[100px] flex items-center justify-between gap-20 text-white w-full'>
+            <div className='flex justify-between items-center px-[100px] xs:px-5 sm:px-10 py-28 xs:py-10 max-w-[1920px] mx-auto'>
+                <div className='flex items-center xs:items-start justify-between xs:flex-col sm:flex-col gap-20 text-white w-full'>
                     <div className='w-10/12'>
                         <h3 className='font-dancing-script text-[36px] text-[#D7B686]'>Welcome to Lezzatos</h3>
-                        <h1 className='text-[50px] leading-tight font-semibold py-3'>The Authentic<br />Restaurant & Cafe</h1>
+                        <h1 className='text-[50px] xs:text-[40px] leading-tight font-semibold py-3'>The Authentic<br />Restaurant & Cafe</h1>
                         <p className='text-lg font-light inline-block'>View the Menu of Lezzet Authentic Restaurant & Cafe in Swansea, UK. Share it with friends or find your next meal.</p>
                         <button className='border-2 border-[#D7B686] px-8 py-2 mt-5 text-xl hover:bg-[#d7b686] hover:text-gray-800 transition-all ease-linear'>View More</button>
                     </div>
-                    <div className='relative w-6/12'>
+                    <div className='relative w-6/12 xs:hidden'>
                         <div className=' ml-auto block relative w-[336px] h-[396px] bg-[#D7B686] box-border' style={{
                             clipPath: 'polygon(25% 0%, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 25%)'
                         }}>
@@ -38,12 +38,12 @@ const Banner = () => {
                                 }} src={italianFood} alt="" />
                             </div>
                         </div>
-                        <img className='-bottom-36 right-16 absolute' src={pattern3} alt="" />
-                        <img className=' absolute -right-40 top-10' src={pattern1} alt="" />
+                        <img className='-bottom-36 right-16 absolute xs:hidden' src={pattern3} alt="" />
+                        <img className=' absolute -right-40 top-10 xs:hidden' src={pattern1} alt="" />
                     </div>
                 </div>
             </div>
-            <img className=' absolute bottom-0 left-0' src={pattern2} alt="" />
+            <img className=' absolute bottom-0 left-0 xs:w-[120px]' src={pattern2} alt="" />
         </div>
     );
 };

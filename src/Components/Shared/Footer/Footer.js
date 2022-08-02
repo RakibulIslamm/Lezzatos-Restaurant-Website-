@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <div className='py-10 bg-black relative'>
-            <div className='px-[100px] max-w-[1920px] mx-auto text-white'>
-                <div className='flex justify-between gap-20'>
-                    <div className='w-3/5'>
-                        <div className='w-3/5'>
+            <div className='px-[100px] xs:px-5 sm:px-10 max-w-[1920px] mx-auto text-white'>
+                <div className='flex justify-between gap-20 xs:flex-col xs:gap-5'>
+                    <div className='w-3/5 xs:w-full'>
+                        <div className='w-3/5 xs:w-full'>
                             <h1 className='text-5xl text-[#D7B686] font-semibold font-dancing-script'>Lezzatos</h1>
                             <p className='text-normal font-extralight py-6'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Sed ut perspiciatis unde omnis iste </p>
                             <div className='flex items-center gap-4 text-xl'>

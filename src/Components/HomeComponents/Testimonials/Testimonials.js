@@ -18,7 +18,7 @@ const Testimonials = () => {
 
     return (
         <div className='py-20 bg-black relative'>
-            <div className='px-[100px] max-w-[1920px] mx-auto text-white'>
+            <div className='px-[100px] xs:px-10 sm:px-10 max-w-[1920px] mx-auto text-white'>
                 <div className='text-center'>
                     <h2 className='text-[#E3C08D] text-3xl font-semibold font-dancing-script py-3'>Testimonials</h2>
                     <h1 className='text-3xl font-semibold'>Customer Reviews</h1>
