@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div className='py-20 bg-black relative'>
+        <div className='py-10 bg-black relative'>
             <div className='px-[100px] max-w-[1920px] mx-auto text-white'>
                 <div className='flex justify-between gap-20'>
                     <div className='w-3/5'>
@@ -33,14 +33,15 @@ const Footer = () => {
                     <div>
                         <h2 className='text-xl font-semibold'>Find Us</h2>
                         <span className='block border-b-2 border-white w-1/5 mt-1'></span>
-                        <div className='mt-4'>
+                        <div className='mt-4 space-y-2'>
                             <p>Braga Street 28, Bandung, West Java, Indonesia </p>
                             <p>+62 863812123</p>
                             <p>lezzatos@restaurant.com</p>
                         </div>
                     </div>
-
                 </div>
+                <span className='block w-full border-b border-gray-700 mt-5'></span>
+                <p className='font-light mt-5'>&copy; Copyright Lezzatos 2020, All right reserved</p>
             </div>
         </div>
     );

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import CustomLink from '../CustomLink/CustomLink';
 
 
 const PublicHeader = () => {
@@ -8,12 +9,12 @@ const PublicHeader = () => {
             <div className='max-w-[1920px] mx-auto'>
                 <div className='px-[100px] flex justify-between items-center'>
                     <h1 className='font-dancing-script font-bold text-5xl text-[#D7B686] py-8'>Lezzatos</h1>
-                    <div className='space-x-8'>
-                        <Link to='/'>Home</Link>
-                        <Link to='/our-menu'>Our Menu</Link>
-                        <Link to='/reservation'>Reservation</Link>
-                        <Link to='/news'>News</Link>
-                        <Link to='/more'>More</Link>
+                    <div className='flex items-start gap-8'>
+                        <CustomLink to='/'>Home</CustomLink>
+                        <CustomLink to='/our-menu'>Our Menu</CustomLink>
+                        <CustomLink to='/reservation'>Reservation</CustomLink>
+                        <CustomLink to='/news'>News</CustomLink>
+                        <CustomLink to='/more'>More</CustomLink>
                     </div>
                     <div className='space-x-6'>
                         <button><Link to='/login'>Login</Link></button>
