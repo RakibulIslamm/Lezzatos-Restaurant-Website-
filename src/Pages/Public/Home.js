@@ -3,6 +3,7 @@ import AboutUs from '../../Components/HomeComponents/AboutUs/AboutUs';
 import DiscoverSec from '../../Components/HomeComponents/DiscoverSec/DiscoverSec';
 import Banner from '../../Components/HomeComponents/HomeBanner/Banner';
 import MenuDishes from '../../Components/HomeComponents/MenuDishes/MenuDishes';
+import Newsletter from '../../Components/HomeComponents/Newsletter/Newsletter';
 import Recipes from '../../Components/HomeComponents/Recipes/Recipes';
 import Reservation from '../../Components/HomeComponents/ReservationSec/Reservation';
 import Statistic from '../../Components/HomeComponents/Statistic/Statistic';
@@ -21,6 +22,7 @@ const Home = () => {
             <Testimonials />
             <Video />
             <Recipes />
+            <Newsletter />
         </div>
     );
 };
