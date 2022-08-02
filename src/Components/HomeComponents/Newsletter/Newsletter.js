@@ -1,4 +1,6 @@
 import React from 'react';
+import pattern2 from '../../../images/pattern-2.png'
+import pattern10 from '../../../images/Pattern-10.png'
 
 const Newsletter = () => {
     return (
@@ -13,6 +15,8 @@ const Newsletter = () => {
                     <button className='uppercase text-[#0D1518] px-5 py-2 bg-[#E3C08D] border border-[#E3C08D]'>Subscribe</button>
                 </form>
             </div>
+            <img className=' absolute top-0 left-0 transform rotate-90 w-[100px]' src={pattern2} alt="" />
+            <img className=' absolute top-1/2 right-0 transform -translate-y-1/2 w-[100px]' src={pattern10} alt="" />
         </div>
     );
 };

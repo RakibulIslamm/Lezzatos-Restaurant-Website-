@@ -1,5 +1,6 @@
 import React from 'react';
 import Recipe from './Recipe/Recipe';
+import pattern2 from '../../../images/pattern-2.png'
 
 const Recipes = () => {
     return (
@@ -13,6 +14,7 @@ const Recipes = () => {
                     <Recipe />
                 </div>
             </div>
+            <img className=' absolute top-0 right-0 transform rotate-180' src={pattern2} alt="" />
         </div>
     );
 };

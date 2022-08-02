@@ -44,7 +44,7 @@ const DiscoverSec = () => {
                 </div>
                 <div className=' grid grid-cols-2 gap-5 mt-12'>
                     {
-                        discoverData.map(discover => <DiscoverCard discover={discover} />)
+                        discoverData.map(discover => <DiscoverCard key={discover.name} discover={discover} />)
                     }
                 </div>
             </div>
