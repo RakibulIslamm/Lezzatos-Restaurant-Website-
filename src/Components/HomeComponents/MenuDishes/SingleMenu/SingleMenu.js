@@ -4,7 +4,7 @@ import saladImg from '../../../../images/home-images/salad-45DBF7S.jpg'
 const SingleMenu = () => {
     return (
         <div className='h-[500px] w-full bg-slate-500 bg-cover bg-center relative shadow-2xl shadow-black' style={{
-            backgroundImage: `url(${saladImg})`,
+            backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85)), url(${saladImg})`,
             clipPath: 'polygon(0% 0%, 87.8% 0%, 100% 9%, 100% 70%, 100% 100%, 0% 100%, 0% 70%, 0% 30%)'
         }}>
             <div className='px-5 py-5 bg-white w-11/12 overflow-hidden h-[270px] absolute -bottom-52 hover:bottom-0 left-0 flex flex-col justify-between transition-all ease-in-out duration-300' style={{

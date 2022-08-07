@@ -21,7 +21,7 @@ const Footer = () => {
                     </div>
                     <div>
                         <h2 className='text-xl font-semibold'>Menu</h2>
-                        <span className='block border-b-2 border-white w-1/2 mt-1'></span>
+                        <span className='block border-b-2 border-white w-[40px] mt-1'></span>
                         <div className='flex justify-start items-start flex-col gap-2 mt-4'>
                             <Link to='/'>Home</Link>
                             <Link to='/ourmenu'>Our Menu</Link>
@@ -32,7 +32,7 @@ const Footer = () => {
                     </div>
                     <div>
                         <h2 className='text-xl font-semibold'>Find Us</h2>
-                        <span className='block border-b-2 border-white w-1/5 mt-1'></span>
+                        <span className='block border-b-2 border-white w-[50px] mt-1'></span>
                         <div className='mt-4 space-y-2'>
                             <p>Braga Street 28, Bandung, West Java, Indonesia </p>
                             <p>+62 863812123</p>
