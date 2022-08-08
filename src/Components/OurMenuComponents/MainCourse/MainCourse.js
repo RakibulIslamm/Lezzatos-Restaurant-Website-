@@ -1,8 +1,8 @@
 import React from 'react';
 import SingleMenu2 from '../../HomeComponents/MenuDishes/SingleMenu/SingleMenu2';
-import img1 from '../../../images/home-images/raw-meat-with-ingredients-for-cooking-PWHM492-recipes.jpg'
-import img2 from '../../../images/home-images/italian-food-shrimp-spaghetti-pasta-with-tomato-sa-B2RRCGR-recipes.jpg'
-import img3 from '../../../images/home-images/indian-lunch-dinner-CLDWFXZ.jpg'
+import img1 from '../../../images/our-menu-images/raw-meat-with-ingredients-for-cooking-PWHM492-1.jpg'
+import img2 from '../../../images/our-menu-images/duck-legs-confit-with-potato-gratin-and-mushroom-s-HMBACUZ.jpg'
+import img3 from '../../../images/our-menu-images/indian-lunch-dinner-CLDWFXZ-1.jpg'
 
 const MainCourse = () => {
     return (
