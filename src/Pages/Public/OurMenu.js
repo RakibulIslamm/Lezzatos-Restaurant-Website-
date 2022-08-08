@@ -4,6 +4,7 @@ import Dessert from '../../Components/OurMenuComponents/Dessert/Dessert';
 import HotPromo from '../../Components/OurMenuComponents/HotPromo/HotPromo';
 import IngredientsVideo from '../../Components/OurMenuComponents/IngredientsVideo/IngredientsVideo';
 import MainCourse from '../../Components/OurMenuComponents/MainCourse/MainCourse';
+import Newsletter from '../../Components/Shared/Newsletter/Newsletter';
 import PageHeader from '../../Components/Shared/PageHeader/PageHeader';
 import headerBg from '../../images/home-images/italian-food-pasta-food-background-GXK8VUE-BG-Section.jpg'
 
@@ -16,6 +17,7 @@ const OurMenu = () => {
             <MainCourse />
             <Dessert />
             <IngredientsVideo />
+            <Newsletter />
         </div>
     );
 };

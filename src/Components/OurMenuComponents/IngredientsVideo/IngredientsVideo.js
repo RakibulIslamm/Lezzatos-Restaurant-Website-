@@ -15,7 +15,7 @@ const IngredientsVideo = () => {
                     <img className='w-full h-full object-cover' src={videoThumb} alt="" />
                     <div className='absolute w-full h-full bg-black bg-opacity-50 top-0 left-0 flex justify-center items-center shadow-2xl shadow-black'>
                         <button>
-                            <IoPlayCircleOutline className='text-[130px] text-white' />
+                            <IoPlayCircleOutline className='text-[130px] text-[#E3C08D]' />
                         </button>
                     </div>
                 </div>

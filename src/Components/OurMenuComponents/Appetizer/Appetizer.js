@@ -3,6 +3,8 @@ import SingleMenu2 from '../../HomeComponents/MenuDishes/SingleMenu/SingleMenu2'
 import foodImg1 from '../../../images/our-menu-images/Subtract-1.jpg'
 import foodImg2 from '../../../images/our-menu-images/02-menu.jpg'
 import foodImg3 from '../../../images/our-menu-images/salad-45DBF7S-1.jpg'
+import pattern2 from '../../../images/pattern-2.png'
+import pattern3 from '../../../images/Pattern-3.png'
 
 const Appetizer = () => {
     return (
@@ -20,7 +22,7 @@ const Appetizer = () => {
                             <SingleMenu2 />
                         </div>
                     </div>
-                    <div className='flex items-end justify-between gap-5 w-8/12'>
+                    <div className='flex items-end justify-between gap-5 w-8/12 relative'>
                         <div className='space-y-5 w-full'>
                             <img className='w-full h-[335px] object-cover' src={foodImg1} style={{
                                 clipPath: 'polygon(15.8% 0%, 73.9% 0%, 100% 23.8%, 100% 100%, 84.2% 100%, 15.8% 100%, 0% 100%, 0% 0%)'
@@ -31,9 +33,11 @@ const Appetizer = () => {
                         </div>
                         <div className='w-full'>
                             <img className='w-full h-[500px] object-cover' src={foodImg3} style={{
-                                clipPath: 'polygon(25% 0%, 100% 0%, 100% 23.8%, 100% 100%, 75.5% 100%, 0% 100%, 0% 77%, 0% 23.3%)'
+                                clipPath: 'polygon(20% 0%, 100% 0%, 100% 100%, 100% 100%, 100% 100%, 0% 100%, 0% 100%, 0% 15%)'
                             }} alt="" />
                         </div>
+                        <img className=' absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rotate-90' src={pattern3} alt="" />
+                        <img className=' absolute -bottom-10 -right-10 transform -rotate-90' src={pattern2} alt="" />
                     </div>
                 </div>
             </div>
