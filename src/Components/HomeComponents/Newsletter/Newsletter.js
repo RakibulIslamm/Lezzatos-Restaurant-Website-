@@ -5,7 +5,7 @@ import pattern10 from '../../../images/Pattern-10.png'
 const Newsletter = () => {
     return (
         <div className='py-20 bg-[#0D1518] relative'>
-            <div className='px-[100px] xs:px-5 sm:px-10 max-w-[1920px] mx-auto text-white flex justify-between items-end gap-10 xs:flex-col xs:gap-5'>
+            <div className='px-[100px] xs:px-5 sm:px-10 max-w-[1440px] mx-auto text-white flex justify-between items-end gap-10 xs:flex-col xs:gap-5'>
                 <div className='w-2/6 xs:w-full'>
                     <h2 className='text-3xl text-[#E3C08D] font-dancing-script font-semibold'>Newsletter</h2>
                     <h1 className='text-3xl font-semibold'>Subscribe Now !</h1>

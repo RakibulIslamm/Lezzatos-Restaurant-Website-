@@ -7,7 +7,7 @@ const Reservation = () => {
         <div className='py-20 bg-gray-600' style={{
             backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.85)),url(${bg})`
         }}>
-            <div className='px-[100px] xs:px-5 sm:px-10 max-w-[1920px] mx-auto'>
+            <div className='px-[100px] xs:px-5 sm:px-10 max-w-[1440px] mx-auto'>
                 <div className='flex justify-between items-center gap-20 xs:gap-8 xs:flex-col'>
                     <div className='w-full text-white'>
                         <h2 className='text-[#E3C08D] text-3xl font-semibold font-dancing-script py-3'>Reservation</h2>

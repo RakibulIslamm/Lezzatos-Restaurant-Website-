@@ -7,12 +7,12 @@ import foodImg3 from '../../../images/home-images/traditional-italian-cookies-wi
 const Appetizer = () => {
     return (
         <div className='py-20 bg-[#0D1518] relative'>
-            <div className='px-[100px] xs:px-5 sm:px-10 max-w-[1920px] mx-auto'>
+            <div className='px-[100px] xs:px-5 sm:px-10 max-w-[1440px] mx-auto'>
 
                 <div className='flex justify-between items-start gap-5'>
                     <div className='w-4/12'>
-                        <div className='px-10 py-12 bg-white relative -mr-24 mt-24 z-20 space-y-10 shadow-2xl shadow-black'>
-                            <h2 className='text-4xl font-dancing-script font-semibold'>Appetizer</h2>
+                        <div className='px-10 py-12 bg-white relative -mr-24 mt-28 z-20 space-y-10 shadow-2xl shadow-black'>
+                            <h2 className='text-4xl text-[#E3C08D] font-dancing-script font-semibold'>Appetizer</h2>
                             <SingleMenu2 />
                             <SingleMenu2 />
                             <SingleMenu2 />
@@ -26,7 +26,7 @@ const Appetizer = () => {
                                 clipPath: 'polygon(15.8% 0%, 73.9% 0%, 100% 23.8%, 100% 100%, 84.2% 100%, 15.8% 100%, 0% 100%, 0% 0%)'
                             }} alt="" />
                             <img className='w-full h-[280px] object-cover' src={foodImg3} style={{
-                                clipPath: 'polygon(15.8% 0%, 100% 0%, 100% 23.8%, 100% 76.5%, 75.5% 100%, 15.8% 100%, 0% 100%, 0% 0%)'
+                                clipPath: 'polygon(15.8% 0%, 100% 0%, 100% 25%, 100% 70%, 75.5% 100%, 15.8% 100%, 0% 100%, 0% 0%)'
                             }} alt="" />
                         </div>
                         <div className='w-full'>

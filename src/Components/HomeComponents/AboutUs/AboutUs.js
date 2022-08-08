@@ -5,7 +5,7 @@ import aboutImg2 from '../../../images/home-images/caffee-restaurant-PTSGQEZ-680
 const AboutUs = () => {
     return (
         <div className='py-20 bg-[#0D1518]'>
-            <div className='px-[100px] xs:px-5 sm:px-10 max-w-[1920px] mx-auto'>
+            <div className='px-[100px] xs:px-5 sm:px-10 max-w-[1440px] mx-auto'>
                 <div className='grid grid-cols-3 xs:grid-cols-1 gap-6 relative'>
                     <img className='mt-20 xs:hidden' style={{
                         clipPath: 'polygon(0 0, 83% 0, 100% 12%, 100% 100%, 0 100%, 0 75%)'

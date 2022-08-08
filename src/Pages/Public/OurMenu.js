@@ -1,5 +1,6 @@
 import React from 'react';
 import Appetizer from '../../Components/OurMenuComponents/Appetizer/Appetizer';
+import Dessert from '../../Components/OurMenuComponents/Dessert/Dessert';
 import HotPromo from '../../Components/OurMenuComponents/HotPromo/HotPromo';
 import MainCourse from '../../Components/OurMenuComponents/MainCourse/MainCourse';
 import PageHeader from '../../Components/Shared/PageHeader/PageHeader';
@@ -12,6 +13,7 @@ const OurMenu = () => {
             <HotPromo />
             <Appetizer />
             <MainCourse />
+            <Dessert />
         </div>
     );
 };

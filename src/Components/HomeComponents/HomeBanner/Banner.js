@@ -11,7 +11,7 @@ const Banner = () => {
         <div className='min-h-screen w-full bg-slate-300 bg-cover bg-center py-28 flex items-center justify-center relative z-0 overflow-hidden' style={{
             backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, .2), rgba(0, 0, 0, .6), rgba(0, 0, 0, 0)),url(${bannerBg})`
         }}>
-            <div className='flex justify-between items-center px-[100px] xs:px-5 sm:px-10 py-28 xs:py-10 max-w-[1920px] mx-auto'>
+            <div className='flex justify-between items-center px-[100px] xs:px-5 sm:px-10 py-28 xs:py-10 max-w-[1440px] mx-auto'>
                 <div className='flex items-center xs:items-start justify-between xs:flex-col sm:flex-col gap-20 text-white w-full'>
                     <div className='w-10/12'>
                         <h3 className='font-dancing-script text-[36px] text-[#D7B686]'>Welcome to Lezzatos</h3>

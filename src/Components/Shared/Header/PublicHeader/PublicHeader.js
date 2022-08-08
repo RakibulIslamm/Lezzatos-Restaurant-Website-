@@ -7,7 +7,7 @@ import { IoMenuOutline } from 'react-icons/io5'
 const PublicHeader = () => {
     return (
         <div className=' -mb-[112px] text-white w-full relative z-50'>
-            <div className='max-w-[1920px] mx-auto'>
+            <div className='max-w-[1440px] mx-auto'>
                 <div className='px-[100px] xs:px-5 sm:px-10 flex justify-between items-center'>
                     <h1 className='font-dancing-script font-bold text-5xl text-[#D7B686] py-8'>Lezzatos</h1>
                     <div className='flex items-start gap-8 xs:hidden sm:hidden'>

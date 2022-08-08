@@ -9,7 +9,7 @@ const Video = () => {
         <div className='py-20 bg-gray-400 bg-cover bg-top transition-all ease-in-out duration-300' style={{
             backgroundImage: `${player ? 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8))' : 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))'}, url(${videoThumb})`
         }}>
-            <div className='px-[100px] xs:px-5 sm:px-10 max-w-[1920px] h-[70vh] mx-auto flex justify-center items-center relative'>
+            <div className='px-[100px] xs:px-5 sm:px-10 max-w-[1440px] h-[70vh] mx-auto flex justify-center items-center relative'>
                 <button onClick={() => setPlayer(!player)} className={`${player ? 'hidden' : 'block'}`}>
                     <IoPlayCircleOutline className='text-[#E3C08D] text-[200px]' />
                 </button>
